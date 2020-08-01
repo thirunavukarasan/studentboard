@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student​ ​Result​ ​Board </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!--Nav Bar-->
+
+  <nav class="navbar navbar-expand-lg  bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navBar">
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#">Student Result Board</a>
+        </li>
+      </ul>
+      <a class="nav-link text-white btn btn-primary" href="http://localhost/techolution/client/pages/admission-form.html"
+        title="Link to Admission">Student Admission</a>
+    </div>
+  </nav>
+
+  <!--Student Result-->
+  <div class="container">
+    <div class="row" id="studentResultBoard">
+      <table class="table table-bordered my-5" id="studenTable">
+        <thead>
+          <tr>
+            <td colspan="5"><b>Students​ ​Result​ ​Board </b></td>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th scope="col"><b><i>Student Id</i></b></th>
+            <th scope="col"><b><i>Student Name</i></b></th>
+            <th scope="col"><b><i>Roll Number</i></b></th>
+            <th scope="col"><b><i>Total Marks</i></b></th>
+            <th scope="col"><b><i>Status</i></b></th>
+          </tr>
+        </thead>
+        <tbody id="studentTbody">
+
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+
+  <!--import js file-->
+  <script src="assets/js/student.js"></script>
+
+</body>
+
+</html>
