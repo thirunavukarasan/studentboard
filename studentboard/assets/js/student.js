@@ -5,7 +5,7 @@ function studentDetails () {
 
     // ajax call get student details
     $.ajax({
-        url: 'http://localhost/techolution/studentboard/assets/data/db.json',
+        url: 'http://localhost:8080/assets/data/db.json',
         method : 'GET',
         dataType: "json",
         success: function (response) {
